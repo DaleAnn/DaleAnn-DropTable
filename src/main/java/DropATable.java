@@ -16,7 +16,7 @@ import java.sql.Statement;
  *
  * Additional reference material if needed: https://www.w3schools.com/sql/sql_drop_db.asp
  * */
-public class DropATable {
+public class DropATable { 
 
     /**
      *      Task: Drop the table "song"
@@ -29,7 +29,7 @@ public class DropATable {
      */
     public void problem1(){
         String sql = FileUtil.parseSQLFile("problem1.sql");
-
+       
         try {
             Connection connection = ConnectionUtil.getConnection();
             Statement s = connection.createStatement();
